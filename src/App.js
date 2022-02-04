@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
+import { useState } from 'react';
 import './App.css';
+import Add from './components/Add/Add';
+import Delete from './components/Delete/Delete';
+import Display from './components/Display/Display';
+import Edit from './components/Edit/Edit';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 function App() {
+
+// const [empDetails, setemDetails] = useState([])
+// const [registerData, setregisterData] = useState({})
+// const [loginData, setloginData] = useState({})
+// const [data, setdata] = useState({
+//   empDetails,setemDetails,
+//   registerData, setregisterData,
+//   loginData, setloginData
+// })
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Login />
+     <Register/>
     </div>
   );
 }
