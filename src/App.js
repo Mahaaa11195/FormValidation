@@ -10,20 +10,20 @@ import Register from './components/Register/Register';
 
 function App() {
 
-// const [empDetails, setemDetails] = useState([])
-// const [registerData, setregisterData] = useState({})
-// const [loginData, setloginData] = useState({})
+const [empDetails, setemDetails] = useState([])
+const [registerData, setregisterData] = useState({})
+const [loginData, setloginData] = useState({})
 // const [data, setdata] = useState({
 //   empDetails,setemDetails,
 //   registerData, setregisterData,
 //   loginData, setloginData
 // })
 
-
   return (
     <div className="App">
      <Login />
      <Register/>
+     <Display/>
     </div>
   );
 }
