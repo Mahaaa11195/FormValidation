@@ -7,6 +7,8 @@ function Display(props) {
     const [state, setstate] = useState([11,22,33,44])
 
   return <div>
+
+  hjgjkjhgkhghggfhgfgfdfdsadsfgfh
 {
     state.map((data,index)=>{
         return <div> 
